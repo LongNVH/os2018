@@ -1,0 +1,10 @@
+hoanglong@hoanglong-VPCEG11FX:/bin$ cd /bin
+hoanglong@hoanglong-VPCEG11FX:/bin$ ls | grep list
+hoanglong@hoanglong-VPCEG11FX:/bin$ cat /etc/passwd | wc -l
+42
+hoanglong@hoanglong-VPCEG11FX:/bin$ free -h | grep Mem: | awk '{print $2}'
+3.8G
+hoanglong@hoanglong-VPCEG11FX:/bin$ grep processor /proc/cpuinfo | wc -l
+4
+hoanglong@hoanglong-VPCEG11FX:/bin$ find ~/Pictures -iname '*.jpg' | wc -l
+0
