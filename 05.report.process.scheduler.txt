@@ -1,10 +1,9 @@
-cat /proc/sched_debug | grep 'systemd'
-systemd-udevd   277       571.873216       568   120         0.000000       312.044900         0.000000 0 0 /autogroup-12
- systemd-timesyn   619         2.508859        51   120         0.000000        17.995722         0.000000 0 0 /autogroup-34
+cat /proc/sched_debug | grep 'systemd
+   
          systemd  1177         9.055054        16   120         0.000000        24.057171         0.000000 0 0 /autogroup-98
- systemd-journal   264        67.867613       806   120         0.000000       280.393354         0.000000 0 0 /autogroup-8
+ 
          systemd     1       289.139846      1596   120         0.000000      1443.213808         0.000000 0 0 /autogroup-2
-  systemd-logind   789        10.710542       474   120         0.000000        56.907095         0.000000 0 0 /autogroup-43
+  
 pgrep systemd
 1
 264
