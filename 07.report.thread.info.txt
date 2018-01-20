@@ -1,0 +1,7 @@
+ps -aux | grep firefox
+hoanglo+  1956 10.9  7.7 2261120 308352 ?      Sl   09:37   1:31 /usr/lib/firefox/firefox
+hoanglo+  2565  0.0  0.0  22828  1092 pts/4    S+   09:51   0:00 grep --color=auto firefox
+ps -o nlwp 1956
+NLWP
+  48
+
